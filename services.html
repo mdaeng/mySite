@@ -63,7 +63,7 @@
 				<ul class="sidebar-nav">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About Me</a></li>
-					<li><a class="active" href="services.html">My Stories</a></li>
+                    <li><a class="active" href="services.html">My Stories</a></li>
 					<li><a href="barbers.html">Memories</a></li>
 					<li><a href="appointment.html">temp1</a></li>
 					<li><a href="contact.html">temp2</a></li>
@@ -82,15 +82,27 @@
 						<div class="col-xs-12 col-sm-12 col-md-12">
 							<div class="title title-1 text-center">
 								<div class="title--heading">
-									<h1>Our Services</h1>
-								</div>
-								<div class="clearfix"></div>
-								<ol class="breadcrumb">
-									<li><a href="index-3.html">Home</a></li>
-									<li class="active">Our Services</li>
-								</ol>
-								<div class="much">
-									<img src="uploads/mustache.png" alt=""/>
+                                    <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
+                                        + 카테고리
+                                       </a><div style="DISPLAY: none">
+                                       
+                                        <ul> 
+                                            <li>
+                                              <a href="test.html">- Daily Reflection
+                                              </a>
+                                            </li> 
+                                          </ul> 
+                                          <ul> 
+                                             <li>
+                                               <a>- abc
+                                               </a>
+                                             </li> 
+                                           </ul> 
+                                       </header>
+                                       
+                                       <a onclick="this.parentNode.style.display='none';" href="javascript:void(0)">
+                                       접기
+                                       </a></div>
 								</div>
 							</div>
 							<!-- .title end -->
